@@ -18,7 +18,7 @@ function App() {
             </li>
           </ul>
         </nav>
-
+<Router/>
        
         <Routes>
           <Route path="/" element={<Home />} />
