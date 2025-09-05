@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from "./components/Home";
-import About from "./components/About";
+import Home from "./Home";
+import About from "./About";
 
 function App() {
   return (
@@ -9,8 +9,14 @@ function App() {
       <div style={{ padding: "20px" }}>
         
         <nav>
-          <Link to="/" style={{ marginRight: "10px" }}>Home</Link>
-          <Link to="/about">About</Link>
+          <ul>
+            <li>
+              <Link to="/" style={{ marginRight: "10px" }}>Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+          </ul>
         </nav>
 
        
